@@ -1,7 +1,5 @@
-#include <exception>
-#include <vector>
-
 #include "primes.hpp"
+#include "primes_in_range.hpp"
 
 using namespace std;
 
