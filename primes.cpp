@@ -1,14 +1,18 @@
-#include <math.hpp>
+#include <cmath>
+#include "primes.hpp"
 
 using namespace std;
 
-namespace math
+namespace
 {
     bool divides(int a, int b)
     {
         return b % a == 0;
     }
+}
 
+namespace primes
+{
     bool is_prime(unsigned int n)
     {
         if (n < 2)
